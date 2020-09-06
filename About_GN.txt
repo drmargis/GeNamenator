@@ -1,0 +1,21 @@
+GeNamenator began as a project in July 2020 to learn Python and SQL.  The first GUI-based version, v2.1, was completed in August 2020.
+
+First name popularity ratings are based on data from the Social Security Administration website.
+The levels of commonness are based on this schema:
+Top Ten = Top 10 names
+Most Common = Top 11-60 names
+Common = Top 61-200 names
+Less Common = Top 201-500 names
+Rare = Top 501-1,000 names
+Extremely Rare = Either not in the top 1,000 or nonexistent
+
+Last name commonality is based on the top 1,000 surnames taken from the 2010 census data.  The frequency of these names is based on United States census data, and names marked as rare are obviously much more common in other countries.
+Commonality is again based on an arbitrary rating system:
+Most Common = Top 100 Names (c. 200,000 to over 1,000,000 people)
+Common = Top 101-300 Names (c.100,000 to 200,000 people)
+Less Common = Top 301-1,000 Names (c. 35,000 to 100,000 people)
+Rare = Under 1,000 Names (less than 35,000 people
+
+Due to how numbers work, random generation at any level is going to favor uncommon names unless specifically left out of searches.
+
+-David Margis, August 2020
